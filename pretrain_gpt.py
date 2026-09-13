@@ -2,6 +2,7 @@
 """Pretrain GPT."""
 
 import torch
+import mindspeed.megatron_adaptor
 from functools import partial
 from contextlib import nullcontext
 import inspect
